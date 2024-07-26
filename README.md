@@ -3,6 +3,8 @@
 Summary:
 You will be introduced to the concept of requirements modeling, basic models and representations, learn how to build a data flow diagram, a swimlane diagram, and a state diagram, how to use decision tables.
 
+💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
+
 ## Contents
 
 1. [Chapter I](#chapter-i) \
@@ -274,5 +276,3 @@ For an object for which no complete state diagram of the object has been built:
       4. Specify conditions if there are branches;
    3. Specify the beginning and end of the object life cycle.
 5. Indicate your answers in the turn-in file ex04\_<product prefix>\_tst.xxx (xxx is an extension).
-
-💡 [Tap here](https://forms.yandex.ru/cloud/65b9094273cee7087396703b/) **to leave your feedback on the project**. Product Team really tries to make your educational experience better.
