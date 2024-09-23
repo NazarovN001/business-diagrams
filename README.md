@@ -43,7 +43,7 @@ In this project, you will learn about diagrams, their purpose and how to create 
 
 1. Karl Wiegers, Joy Beatty, "Software Requirements" 3rd edition, amplified. 
 2. Martin Fowler, Kendall Scott "UML Distilled: A Brief Guide to the Standard Object Modeling Language (2nd Edition)".
-3. Craig Larman "Applying UML and Design Patterns - An Introduction to Object-Oriented Analysis".
+3. Craig Larman "Applying UML and Design Patterns — An Introduction to Object-Oriented Analysis".
 4. BABOK v3 "A Guide to the Business Analysis Body of Knowledge" IIBA.
 5. Dean Leffingwell, Don Widrig "Managing Software Requirements".
 
@@ -77,12 +77,12 @@ A **Model** is a simplified description of reality that allows an object to be s
 
 | Artifact                          | Models                                      | Components (aspects) of models     |
 | --------------------------------- | ------------------------------------------- | ---------------------------------- |
-| People, organizations, IT systems | Context diagram     Data flow diagram       | External systems, external objects |
+| People, organizations, IT systems | Context diagram,     Data flow diagram       | External systems, external objects |
 |                                   | Use case diagrams                           | Actors                             |
 |                                   | ER diagram                                  | Entities or their attributes       |
 |                                   | Swimlane diagram                            | Lanes                              |
 |                                   | State & Transition diagram, table of states | Objects with states                |
-| Transmitted and stored data       | Context diagram     Data flow diagram       | Data flows and data stores         |
+| Transmitted and stored data       | Context diagram,     Data flow diagram       | Data flows and data stores         |
 |                                   | ER diagram                                  | Entities or their attributes       |
 |                                   | Swimlane diagram                            | Lanes                              |
 
@@ -96,9 +96,9 @@ We consider several visual representation models, which represent the system in 
 - Swimlane diagram;
 - State diagram (or state table);
 - Business process diagram in BPMN notation;
-- and also you've already looked at the context diagram (module 1), which is a simplified data flow diagram.
+- and you've already seen the context diagram (Module 1), which is a simplified data flow diagram.
 
-It should be understood that diagrams can show both the current As-Is state for requirements identification (problem domain in requirements engineering terminology) and the future, projected state To-Be (solution domain). When creating a diagram, you should always understand which domain what you are creating relates to.
+It should be understood that diagrams can show both the current As-Is state for requirements identification (problem domain in requirements engineering terminology) and the future, projected To-Be state (solution domain). When creating a diagram, you should always understand which domain what you are creating relates to.
 
 Therefore, before starting the diagram, it is necessary to define the following:
 
@@ -110,11 +110,11 @@ Therefore, before starting the diagram, it is necessary to define the following:
 
 A data flow diagram (DFD) provides a view of how data moves within the system and between the system and the outside world, reflecting the stores and flows of data and materials (technically, information about materials, i.e., also data flows) that the system manages. The movement of data and materials between the external environment and the system (the system as a black box) is a context diagram, an extreme case of a data flow diagram. In addition, a more detailed data flow diagram can be built during the development process, showing the flows between processes or subsystems within the system, among themselves, and with external systems. A data flow diagram can be created for level 0 and deeper, decomposing flows and actions. The level 0 data flow diagram corresponds to the context diagram, but with an extension to functions within the system.
 
-A DFD diagram can show the people or organizations that are the initiators of the data transfer or the recipients of the data. These are our stakeholders. That is, the data flow diagram should correlate with the stakeholder directory and with the onion diagram - we should check these correspondences and, if necessary, eliminate inconsistencies. But the diagram does not show the sequence of processes and activities. Do not try to show the sequence of processes on the DFD!
+A DFD diagram can show the people or organizations that are the initiators of the data transfer or the recipients of the data. These are our stakeholders. That is, the data flow diagram should correlate with the stakeholder directory and with the onion diagram — we should check these correspondences and, if necessary, eliminate inconsistencies. But the diagram does not show the sequence of processes and activities. Do not try to show the sequence of processes on the DFD!
 
 The data contained in the DFD is the same data described in the Data Dictionary. Therefore, we also compare, check, and correct it if necessary.
 
-One more thing: all data that goes into a system must be used by that system for something. If it is not used, it is not needed. And all data that the system sends out and uses internally must come from somewhere (enter the system or be created within the system) - this is also something that needs to be checked. 
+One more thing: all data that goes into a system must be used by that system for something. If it is not used, it is not needed. And all data that the system sends out and uses internally must come from somewhere (enter the system or be created within the system) — this is also something that needs to be checked. 
 
 The detailed construction of a DFD is described in the book by K. Wiegers, edition 3, chapter 12, section "Data Flow Diagram".
 
@@ -122,9 +122,9 @@ The detailed construction of a DFD is described in the book by K. Wiegers, editi
 
 A swimlane diagram (cross-functional diagram) is used to examine and illustrate the business processes performed by users and the system, the interaction of users with each other, and/or the sequence of business processes or actions in a business process. This is what happens within the process in a data flow diagram. The diagram is divided into lanes, and in each lane there is a role involved in the system, the system itself, or an external system. Sometimes only the roles of users or departments are considered when only their interaction is required. The construction of the diagram is described in detail in chapter 12 of K. Wiegers "Requirements Development", section "Swimlane Diagram".
 
-The diagram allows to check the completeness of the role model - roles and actions performed by them, interaction with external systems, order of execution of actions. Sometimes data used/generated in each process/action is added to the diagram. And then there is an opportunity to check with the data flow diagram, to identify inconsistencies, and if necessary - to conduct additional research and eliminate inaccuracies. 
+The diagram allows to check the completeness of the role model — roles and actions performed by them, interaction with external systems, order of execution of actions. Sometimes data used/generated in each process/action is added to the diagram. And then there is an opportunity to check with the data flow diagram, to identify inconsistencies, and if necessary — to conduct additional research and eliminate inaccuracies. 
 
-The figure shows the software development life cycle in a swimlane diagram. It shows the main functions of each role and in more detail the functions of an analyst, as a supplement to the BSA 00 video on the functions of an analyst in software development.
+The figure shows the software development life cycle in a swimlane diagram. It shows the main functions of each role and, in more detail, the functions of an analyst, as a supplement to the BSA 00 video on the functions of an analyst in software development.
 
 For example, a diagram of the software development life cycle (Fig. 1) is constructed to describe the role and functions of an analyst in software development:
 
@@ -146,13 +146,13 @@ In this case, we cannot say that the first diagram is wrong, even though it does
 
 ### 5. State diagram <div id="35"></div>
 
-A state diagram shows the behavior of a particular object (class) in the system, the change of states of this object under the influence of events occurring in the system or external factors. State diagrams are usually constructed for one or more of the main objects in the system. With the help of the diagram for each state it is possible to trace:
+A state diagram shows the behavior of a particular object (class) in the system, the change of states of this object under the influence of events occurring in the system or external factors. State diagrams are usually constructed for one or more of the main objects in the system. Using the diagram for each state, it is possible to trace:
 
 - possible states of the object in the system;
 - previous state (state before the event);
 - an event (action) that changes the state of the object;
 - a role that initiates the transition;
-- conditions of transition to a new state (transition to several states is possible, depending on conditions);
+- conditions of transition to a new state (transition to several states is possible, depending on the conditions);
 - the state after the event.
 
 The following figure shows the state diagram of the Request object from Task 1.  
@@ -171,7 +171,7 @@ The same information can also be presented in the table (shown partially).
 
 The management of a chain of barbershops decided to implement an online booking system. The main objective is to develop the business by expanding the customer base through the possibility of online registration, as well as to reduce employee labour costs and manual labour by automatically informing customers through communication channels. 
 
-Both registered and unregistered visitors can book an appointment on the website. When making an appointment, they can select the type of service: hairdressing or cosmetology, as well as the service itself, the master and the time from the available intervals. The system should provide automatic sending of reminders to clients through the communication channel chosen by the client (Telegram, WhatsApp, VK, sms) according to the schedule set by the manager. After receiving a service, the system offers the client to evaluate the service and write suggestions on how to improve the work.
+Both registered and unregistered visitors can book an appointment on the website. When making an appointment, they can select the type of service: hairdressing or cosmetology, as well as the service itself, the master and the time from the available intervals. The system should provide automatic sending of reminders to clients through the communication channel chosen by the client (Telegram, WhatsApp, VK, SMS) according to the schedule set by the manager. After receiving a service, the system offers the client to evaluate the service and write suggestions on how to improve the work.
 
 The schedule of masters and the services provided by each master should be entered by the manager, who may be more than one person. This person is also responsible for keeping the schedule up to date and adjusting it if necessary, communicating with customers manually, marking the service, charging and accepting payment, sending the payment data to the accounting department. The manager can also receive reports on completed services and view customer feedback.
 
@@ -194,17 +194,17 @@ Build a Level 0 Data flow diagram:
 
 1. Specify the purpose of the diagram.
 2. Specify the area of consideration: As-Is or To-Be.
-3. Show the external entities interacting with the system in the rectangles in the diagram.
+3. Show the external entities that interact with the system in the rectangles on the diagram.
 4. Show the processes (stakeholder actions on the data) in ovals.
 5. Show the content of the information flows on the arrows.
-6. Show data stores and the content of information stored in the system in parallel line segments.
+6. Show the data stores and the content of the information stored in the system in parallel line segments.
 7. Follow the rules:
-   1. All processes (ovals) must be numbered. On a level 0 diagram - in whole numbers;
-   2. The processes are named: verb+object;
-   3. Comprehensible names of the domain (not technical names of the system database entities) are used to designate the object;
-   4. Processes do not interact directly with each other, but through data stores;
-   5. Data flows between stores and external entities or between each other through a process (not directly);
-   6. The diagram does not show the sequence of processes and actions;
+   1. All processes (ovals) must be numbered. On a level 0 diagram — in whole numbers.
+   2. The processes are named: verb+object.
+   3. Comprehensible domain names (not technical names of system database entities) are used to identify the object.
+   4. Processes do not interact with each other directly, but through data stores.
+   5. Data flows between stores and external entities or between each other through a process (not directly).
+   6. The diagram does not show the sequence of processes and actions.
    7. The diagram must be readable.
 8. Indicate your answers in the turn-in file ex00\_<product prefix>\_dfd.xxx (xxx is an extension).
 
@@ -243,7 +243,7 @@ Build a swimlane diagram:
 
 **For each task:**
 
-1. Select an object (domain entity) that has a life cycle. In task 1 - excluding the object Service request.
+1. Select an object (domain entity) that has a life cycle. In task 1 — excluding the object Service request.
 2. Specify the purpose of the diagram.
 3. Specify the area of consideration: As-Is or To-Be.
 4. Build a state diagram of the selected object:
@@ -268,11 +268,11 @@ For an object for which no complete state diagram of the object has been built:
 2. Specify the purpose of the diagram.
 3. Specify the area of consideration: As-Is or To-Be.
 4. Build a state table:
-   1. Select names of object states;
+   1. Select names of object states.
    2. Specify in the table row:
       1. previous and subsequent states of the object;
       2. an event (action) that transforms an object from a previous state to a subsequent state;
       3. the initiator of each event (action);
-      4. Specify conditions if there are branches;
+      4. conditions, if there are branches.
    3. Specify the beginning and end of the object life cycle.
 5. Indicate your answers in the turn-in file ex04\_<product prefix>\_tst.xxx (xxx is an extension).
