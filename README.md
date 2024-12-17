@@ -254,7 +254,7 @@ Build a swimlane diagram:
    5. Specify the initiator of each event (action);
    6. Specify conditions if there are branches;
    7. Specify the beginning and end of the object life cycle.
-5. Indicate your answers in the turn-in file ex04\_<product prefix>\_dst.xxx (xxx is an extension).
+5. Indicate your answers in the turn-in file ex03\_<product prefix>\_dst.xxx (xxx is an extension).
 
 ### Exercise 04 — State table <div id="55"></div>
 
