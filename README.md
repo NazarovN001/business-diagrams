@@ -29,7 +29,8 @@ You will be introduced to the concept of requirements modeling, basic models and
 
 ## Chapter I <div id="chapter-i"></div>
 
-![](misc/images/Illustration_05.jpg)
+![Illustration_05](./misc/images/Illustration_05.jpg)
+
 
 ### Preamble <div id="11"></div>
 
@@ -133,7 +134,7 @@ For example, a diagram of the software development life cycle (Fig. 1) is constr
 3. Diagram type: swimlane diagram.
 
 *Figure 1*
-![](misc/images/img1_eng.png)
+![img1_eng](misc/images/img1_eng.png)
 
 ### 4. Swimlane Diagram Extension <div id="34"></div>
 
@@ -142,7 +143,7 @@ Often the swimlane diagram is extended by adding artifacts (documents, queries, 
 In this case, we cannot say that the first diagram is wrong, even though it does not show the processes. Such a representation of the process (a simple rectangle, without double vertical sides) is quite common. It is important that the entire team understands it.
 
 *Figure 2*
-![](misc/images/img2_eng.png)
+![img2_eng](misc/images/img2_eng.png)
 
 ### 5. State diagram <div id="35"></div>
 
@@ -157,11 +158,11 @@ A state diagram shows the behavior of a particular object (class) in the system,
 
 The following figure shows the state diagram of the Request object from Task 1.  
 
-![](misc/images/img3_eng.png)
+![img3_eng](misc/images/img3_eng.png)
 
 The same information can also be presented in the table (shown partially).
 
-![](misc/images/img4_eng.png)
+![img4_eng](misc/images/img4_eng.png)
 
 ## Chapter IV <div id="chapter-iv"></div>
 
