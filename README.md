@@ -235,8 +235,8 @@ Build a swimlane diagram:
 2. Specify the purpose of the diagram.
 3. Specify the area of consideration: As-Is or To-Be.
 4. Add to each role in the swimlane diagram the artifacts it creates: documents, developed code, logged bugs, queries, etc.
-   1. Show artifacts for each role on the lane that are developed or adjusted by the role representatives, show it on the role lane;
-   2. Specify with a dotted line for each artifact the relationship to the source where the artifact is created/corrected;
+   1. Show artifacts for each role on the lane that are developed or adjusted by the role representatives, show it on the role lane.
+   2. Specify with a dotted line for each artifact the relationship to the source where the artifact is created/corrected.
    3. It is acceptable to group artifacts, i.e., to specify multiple artifacts in the same pool if they are created by the same role in the same process (or when performing the same action).
 5. Indicate your answers in the turn-in file ex02\_<product prefix>\_adswd.(xxx is an extension).
 
